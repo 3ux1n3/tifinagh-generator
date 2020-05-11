@@ -13,4 +13,4 @@ using this user can input his name, and he will get it back in Tifinagh alphabet
 
 [learn more about Tifinagh](https://en.wikipedia.org/wiki/Tifinagh)
 
-[ online demo ](tifinagh-generator.netlify.app)
+[ online demo ](https://tifinagh-generator.netlify.app/)
