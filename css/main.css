@@ -1,0 +1,44 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+.app {
+  width: 100vw;
+  height: 95vh;
+  background: #009bcd;
+  background: linear-gradient(8deg, #009bcd 0%, #9bcd30 48%, #ffe60b 100%);
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.app .input {
+  margin: 40px;
+  padding: 20px;
+}
+.app .input input, .app .input button {
+  font-size: 30px;
+  padding: 20px;
+  border-radius: 20px 0 20px 0;
+}
+.app .output {
+  margin: 40px;
+  padding: 20px;
+  font-size: 45px;
+}
+
+footer {
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  background: #009bcd;
+  justify-content: center;
+  align-items: center;
+}
+footer a {
+  margin: 20px;
+  padding: 20px;
+}
+
+/*# sourceMappingURL=main.css.map */

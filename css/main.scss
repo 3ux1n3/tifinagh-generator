@@ -1,0 +1,41 @@
+::-webkit-scrollbar {
+  display: none;
+}
+.app {
+  width: 100vw;
+  height: 95vh;
+  background: rgb(0,155,205);
+  background: linear-gradient(8deg, rgba(0,155,205,1) 0%, rgba(155,205,48,1) 48%, rgba(255,230,11,1) 100%);
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .input{
+    margin: 40px;
+    padding: 20px;
+    input, button{
+      font-size: 30px;
+      padding: 20px;
+      border-radius: 20px 0 20px 0;
+    }
+  }
+  .output{
+    margin: 40px;
+    padding: 20px;
+    font-size: 45px;
+  }
+}
+
+footer {
+  a{
+    margin: 20px;
+    padding: 20px;
+  }
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  background: rgb(0,155,205);
+  justify-content: center;
+  align-items: center;
+}
